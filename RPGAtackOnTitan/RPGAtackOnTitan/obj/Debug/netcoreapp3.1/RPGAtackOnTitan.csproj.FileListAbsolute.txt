@@ -1,0 +1,13 @@
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.AssemblyInfoInputs.cache
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.AssemblyInfo.cs
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\bin\Debug\netcoreapp3.1\RPGAtackOnTitan.exe
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\bin\Debug\netcoreapp3.1\RPGAtackOnTitan.deps.json
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\bin\Debug\netcoreapp3.1\RPGAtackOnTitan.runtimeconfig.json
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\bin\Debug\netcoreapp3.1\RPGAtackOnTitan.runtimeconfig.dev.json
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\bin\Debug\netcoreapp3.1\RPGAtackOnTitan.dll
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\bin\Debug\netcoreapp3.1\RPGAtackOnTitan.pdb
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.dll
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.pdb
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.genruntimeconfig.cache
+C:\Users\gusta\source\repos\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.csprojAssemblyReference.cache

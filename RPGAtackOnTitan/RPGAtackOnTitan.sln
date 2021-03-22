@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGAtackOnTitan", "RPGAtackOnTitan\RPGAtackOnTitan.csproj", "{20439D21-D04E-499A-B6E0-FB9B34F09184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20439D21-D04E-499A-B6E0-FB9B34F09184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20439D21-D04E-499A-B6E0-FB9B34F09184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20439D21-D04E-499A-B6E0-FB9B34F09184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20439D21-D04E-499A-B6E0-FB9B34F09184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45C0C8E7-6C77-4F30-B870-7F7787A120D1}
+	EndGlobalSection
+EndGlobal
