@@ -25,10 +25,16 @@ namespace RPGAtackOnTitan
 
             ataque = (status.força + status.agilidade) * sorteio;
 
+            if (status.vigor == 0)
+            {
+                return ataque = 0;
+            }
+
             // Se o ataque for bem sucedido, ganha um quantidade mínima de xp
             if (ataque > 0)
             {
                 this.level += 1;
+                status.vigor = status.vigor - 30;
             }
 
             return ataque / 100;

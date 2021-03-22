@@ -9,16 +9,16 @@ namespace RPGAtackOnTitan
         {
 
             // Criando o personagem1 Classe HUMANO
-                                            //nome //idade //level   //força //defesa //agilidade //sorte //vida
-            Humano personagem1 = new Humano ("Marcos", 16, 1, new Status(20, 20, 100, 60,100));
+                                            //nome //idade //level   //força //defesa //agilidade //sorte //vida //vigor
+            Humano personagem1 = new Humano ("Marcos", 16, 1, new Status(20, 20, 100, 60, 100, 100));
 
             // Criando o titã1  Classe Titã 
                                     //nome //idade //level   //força //defesa //agilidade //sorte //vida
-            Titã tita1 = new Titã("Unknow", 200, 1, new Status(1200, 150, 30, 100, 1000));
+            Titã tita1 = new Titã("Unknow", 200, 1, new Status(1200, 150, 30, 100, 1000, 500));
 
             // Criando o soldado1 Classe Soldado  
                                             //nome //idade //level   //força //defesa //agilidade //sorte //vida
-            Soldado soldado1 = new Soldado("Levi", 25, 1, new Status(250, 80, 300, 90, 100));
+            Soldado soldado1 = new Soldado("Levi", 25, 1, new Status(250, 80, 300, 90, 100, 200));
 
             /// TESTES
             /// 
@@ -32,8 +32,9 @@ namespace RPGAtackOnTitan
             Console.WriteLine("Ataques!");
             Console.WriteLine(personagem1.Ataque());
             Console.WriteLine(soldado1.Ataque());
+            
             Console.WriteLine(tita1.Ataque());
-
+            
             Console.WriteLine("\n");
 
             Console.WriteLine("Defesas!");
