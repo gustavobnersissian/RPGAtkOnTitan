@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
+      "projectUniqueName": "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
       "projectName": "RPGAtackOnTitan",
-      "projectPath": "C:\\Users\\gusta\\source\\repos\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
+      "projectPath": "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
       "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\source\\repos\\RPGAtackOnTitan\\RPGAtackOnTitan\\obj\\",
+      "outputPath": "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
