@@ -4,10 +4,10 @@ using System.Text;
 
 namespace RPGAtackOnTitan
 {
-    class Titã : Monstro
+    class TitanAnormal : Monstro
     {
 
-        public Titã( int level, Status status)
+        public TitanAnormal(int level, Status status)
         {
             this.Level = level;
             this._status = status;
@@ -25,7 +25,7 @@ namespace RPGAtackOnTitan
 
             ataque = (_status.Força + _status.Agilidade) * sorteio;
 
-            if(_status.Vigor == 0)
+            if (_status.Vigor == 0)
             {
                 return ataque = 0;
             }
@@ -37,7 +37,7 @@ namespace RPGAtackOnTitan
                 _status.Vigor = _status.Vigor - 70;
 
             }
-            
+
 
             return ataque / 100;
         }
@@ -60,32 +60,27 @@ namespace RPGAtackOnTitan
         {
             int vida = _status.Vida;
             int danoRecebido = defesa - dano;
-            int resultado = vida - danoRecebido;
+            int resultado = 1;
+            resultado = vida - danoRecebido;
 
-            if (danoRecebido > 0)
+            if (resultado > 0)
             {
                 Console.WriteLine("Dano = {0}, sua defesa {1}, dano recebido {2} --- Você defendeu o ataque, sua vida atual: {3}", dano, defesa, danoRecebido, _status.Vida);
                 resultado = _status.Vida;
             }
-            else if (danoRecebido < 0)
-            {
+            else if (resultado < 0)
                 Console.WriteLine("DANO RECEBIDO = {0} --- Voce morreu! sua vida atual: {1} Sua defesa = {2}", danoRecebido, _status.Vida, defesa);
-                _status.Vida = _status.Vida - danoRecebido;
-            }
-                
-            
-            
 
-            return vida;
+            return resultado;
         }
 
-        
-        
+
+
         // Sobrepõe a função falar() da classe Héroi
         public void TitaFalar()
         {
             Console.WriteLine("UUHHHAAAAHHHH ~ Gritos assusturadores de um Titã");
         }
-        
+
     }
 }
