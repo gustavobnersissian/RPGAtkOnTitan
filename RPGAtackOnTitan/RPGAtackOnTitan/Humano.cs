@@ -77,7 +77,18 @@ namespace RPGAtackOnTitan
 
             return vida;
         }
-        
+
+        public void meuStatus()
+        {
+            Console.WriteLine("///// MEU STATUS /////");
+            Console.WriteLine("Força = {0}", this._status.Força);
+            Console.WriteLine("Defesa = {0}", this._status.Defesa);
+            Console.WriteLine("Agilidade = {0}", this._status.Agilidade);
+            Console.WriteLine("Sorte = {0}", this._status.Sorte);
+            Console.WriteLine("Vida = {0}", this._status.Vida);
+            Console.WriteLine("Vigor = {0}", this._status.Vigor);
+            Console.WriteLine("//////////////////////");
+        }
 
     }
 }

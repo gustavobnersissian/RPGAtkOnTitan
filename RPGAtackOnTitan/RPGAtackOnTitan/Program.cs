@@ -101,6 +101,8 @@ namespace RPGAtackOnTitan
             Console.WriteLine(tita1.Level);
 
             Console.WriteLine(soldado1._status.Força);
+
+            soldado1.meuStatus();
         }
 
     }

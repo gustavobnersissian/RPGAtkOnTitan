@@ -20,5 +20,7 @@ namespace RPGAtackOnTitan
         {
             Console.WriteLine("Minha vida é de {0}", _status.Vida);
         }
+
+        
     }
 }
