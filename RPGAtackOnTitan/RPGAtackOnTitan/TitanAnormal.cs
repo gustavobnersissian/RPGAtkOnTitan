@@ -4,10 +4,10 @@ using System.Text;
 
 namespace RPGAtackOnTitan
 {
-    class Titã : Monstro
+    class TitanAnormal : Monstro
     {
 
-        public Titã( int level, Status status)
+        public TitanAnormal(int level, Status status)
         {
             this.Level = level;
             this._status = status;
@@ -25,7 +25,7 @@ namespace RPGAtackOnTitan
 
             ataque = (_status.Força + _status.Agilidade) * sorteio;
 
-            if(_status.Vigor == 0)
+            if (_status.Vigor == 0)
             {
                 return ataque = 0;
             }
@@ -37,7 +37,7 @@ namespace RPGAtackOnTitan
                 _status.Vigor = _status.Vigor - 70;
 
             }
-            
+
 
             return ataque / 100;
         }
@@ -74,13 +74,13 @@ namespace RPGAtackOnTitan
             return resultado;
         }
 
-        
-        
+
+
         // Sobrepõe a função falar() da classe Héroi
         public void TitaFalar()
         {
             Console.WriteLine("UUHHHAAAAHHHH ~ Gritos assusturadores de um Titã");
         }
-        
+
     }
 }

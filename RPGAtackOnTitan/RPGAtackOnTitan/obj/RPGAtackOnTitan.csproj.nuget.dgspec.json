@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj": {}
+    "C:\\repositorio\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj": {}
   },
   "projects": {
-    "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj": {
+    "C:\\repositorio\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
+        "projectUniqueName": "C:\\repositorio\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
         "projectName": "RPGAtackOnTitan",
-        "projectPath": "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\rpgAtkOnTitan\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\obj\\",
+        "projectPath": "C:\\repositorio\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan.csproj",
+        "packagesPath": "C:\\Users\\zaniv\\.nuget\\packages\\",
+        "outputPath": "C:\\repositorio\\RPGAtkOnTitan\\RPGAtackOnTitan\\RPGAtackOnTitan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zaniv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
