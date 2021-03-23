@@ -100,6 +100,7 @@ namespace RPGAtackOnTitan
             Console.WriteLine(soldado1.Level);
             Console.WriteLine(tita1.Level);
 
+            Console.WriteLine(soldado1._status.Força);
         }
 
     }

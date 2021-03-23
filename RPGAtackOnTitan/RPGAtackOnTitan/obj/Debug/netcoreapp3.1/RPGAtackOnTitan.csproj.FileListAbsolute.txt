@@ -36,3 +36,4 @@ C:\rpgAtkOnTitan\RPGAtkOnTitan\RPGAtackOnTitan\RPGAtackOnTitan\bin\Debug\netcore
 C:\rpgAtkOnTitan\RPGAtkOnTitan\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.dll
 C:\rpgAtkOnTitan\RPGAtkOnTitan\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.pdb
 C:\rpgAtkOnTitan\RPGAtkOnTitan\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.genruntimeconfig.cache
+C:\rpgAtkOnTitan\RPGAtkOnTitan\RPGAtackOnTitan\RPGAtackOnTitan\obj\Debug\netcoreapp3.1\RPGAtackOnTitan.csprojAssemblyReference.cache

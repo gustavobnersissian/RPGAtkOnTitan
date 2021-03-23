@@ -20,7 +20,7 @@ namespace RPGAtackOnTitan
             int sorteio;
 
             System.Random random = new System.Random();
-            //sorte = 60
+            
             sorteio = (1 + random.Next(0, _status.Sorte));
 
             ataque = (_status.Força + _status.Agilidade) * sorteio;
@@ -30,7 +30,7 @@ namespace RPGAtackOnTitan
                 return ataque = 0;
             }
 
-            // Se o ataque for bem sucedido, ganha um quantidade mínima de xp
+            // Se o ataque for bem sucedido, ganha um quantidade mínima de xp e perde vigor
             if (ataque > 0)
             {
                 this.Level += 1;
