@@ -14,11 +14,11 @@ namespace RPGAtackOnTitan
 
             // Criando o titã1  Classe Titã 
                                     //nome //idade //level   //força //defesa //agilidade //sorte //vida
-            Titã tita1 = new Titã("Unknow", 200, 1, new Status(1200, 150, 30, 100, 1000, 500));
+            Titã tita1 = new Titã("Unknow", 200, 1, new Status(1200, 150, 30, 100, 100, 400));
 
             // Criando o soldado1 Classe Soldado  
                                             //nome //idade //level   //força //defesa //agilidade //sorte //vida
-            Soldado soldado1 = new Soldado("Levi", 25, 1, new Status(250, 80, 300, 90, 100, 200));
+            Soldado soldado1 = new Soldado("Levi", 25, 1, new Status(250, 10, 300, 90, 100, 200));
 
             /// TESTES
             /// 
@@ -50,24 +50,25 @@ namespace RPGAtackOnTitan
             Console.WriteLine("\n");
 
             Console.WriteLine("Recebe Dano!");
-            Console.WriteLine(tita1.RecebeAtaque(personagem1.Ataque(), tita1.Defesa()));
+            ///Console.WriteLine(tita1.RecebeAtaque(personagem1.Ataque(), tita1.Defesa()));
             Console.WriteLine(tita1.RecebeAtaque(soldado1.Ataque(), tita1.Defesa()));
 
             Console.WriteLine("\n");
 
-            Console.WriteLine(soldado1.RecebeAtaque(personagem1.Ataque(), soldado1.Defesa()));
-            Console.WriteLine(soldado1.RecebeAtaque(tita1.Ataque(), soldado1.Defesa()));
+            Console.WriteLine(tita1.status.vida);
+            //Console.WriteLine(soldado1.RecebeAtaque(personagem1.Ataque(), soldado1.Defesa()));
+            //Console.WriteLine(soldado1.RecebeAtaque(tita1.Ataque(), soldado1.Defesa()));
 
             Console.WriteLine("\n");
 
-            Console.WriteLine(personagem1.RecebeAtaque(soldado1.Ataque(), personagem1.Defesa()));
-            Console.WriteLine(personagem1.RecebeAtaque(tita1.Ataque(), personagem1.Defesa()));
+            //Console.WriteLine(personagem1.RecebeAtaque(soldado1.Ataque(), personagem1.Defesa()));
+            //Console.WriteLine(personagem1.RecebeAtaque(tita1.Ataque(), personagem1.Defesa()));
 
             Console.WriteLine("\n");
 
-            Console.WriteLine(personagem1.level);
-            Console.WriteLine(soldado1.level);
-            Console.WriteLine(tita1.level);
+            //Console.WriteLine(personagem1.level);
+            //Console.WriteLine(soldado1.level);
+            //Console.WriteLine(tita1.level);
         }
 
     }

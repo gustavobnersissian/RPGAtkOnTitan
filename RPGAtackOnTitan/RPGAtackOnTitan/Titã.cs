@@ -62,18 +62,18 @@ namespace RPGAtackOnTitan
         {
             int vida = status.vida;
             int danoRecebido = defesa - dano;
-            int resultado = 0;
-            resultado = vida - danoRecebido;
+            
+            int resultado = vida - danoRecebido;
 
-            if (resultado > 0)
+            if (danoRecebido > 0)
             {
                 Console.WriteLine("Dano = {0}, sua defesa {1}, dano recebido {2} --- Você defendeu o ataque, sua vida atual: {3}", dano, defesa, danoRecebido, status.vida);
                 resultado = status.vida;
             }
-            else if (resultado < 0)
+            else if (danoRecebido < 0)
                 Console.WriteLine("DANO RECEBIDO = {0} --- Voce morreu! sua vida atual: {1} Sua defesa = {2}", danoRecebido, status.vida, defesa);
 
-            return resultado;
+            return vida;
         }
 
         public int Regeneracao()
